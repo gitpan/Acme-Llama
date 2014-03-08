@@ -4,4 +4,4 @@ META.yml
 Makefile.PL
 README
 dist.ini
-lib/Acme/Llama.pm
+lib/Acme/Moose.pm

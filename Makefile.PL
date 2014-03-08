@@ -4,23 +4,23 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'An object-oriented interface to llamas.',
-  'AUTHOR' => 'Alexandria Marie Wolcott <alyx@woomoo.org>',
+  'AUTHOR' => 'John Scoles',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Acme-Llama',
   'EXE_FILES' => [],
   'LICENSE' => 'bsd',
   'NAME' => 'Acme::Llama',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.42',
+  'PREREQ_PM' => {Moose=>'2.0007'},
+  'VERSION' => '0.01',
   'test' => {
     'TESTS' => ''
   }
